@@ -1,0 +1,126 @@
+:root {
+  --text-decoration: none;
+}
+.container {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.Fjalla-One {
+  font-family: "Fjalla One", sans-serif;
+}
+.quicksand {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
+}
+.Rampart-One {
+  font-family: "Rampart One", cursive;
+}
+.Pacifico {
+  font-family: "Pacifico", cursive;
+}
+#name {
+  margin-left: 20px;
+}
+#icon {
+  font-size: 24px;
+  position: relative;
+  opacity: 0.7;
+  top: 12px;
+}
+h1 {
+  font-size: 96px;
+  margin: 0px;
+}
+h2 {
+  margin: 40px 0px 0px;
+  font-size: 48px;
+}
+h3 {
+  font-size: 24px;
+  margin: 10px 0px 0px 2px;
+  opacity: 0.7;
+}
+p {
+  font-size: 20px;
+  line-height: 30px;
+}
+img {
+  border: 10px solid white;
+  border-radius: 10px;
+}
+.mail {
+  color: black;
+  text-decoration: var(--text-decoration);
+  font-size: 38px;
+}
+.mail:hover {
+  color: #cd0d0b;
+  text-decoration: var(--text-decoration);
+  transition: all 0.3s ease-out;
+}
+@-webkit-keyframes swing {
+  20% {
+    -webkit-transform: rotate3d(0, 0, 1, 15deg);
+    transform: rotate3d(0, 0, 1, 15deg);
+  }
+
+  40% {
+    -webkit-transform: rotate3d(0, 0, 1, -10deg);
+    transform: rotate3d(0, 0, 1, -10deg);
+  }
+
+  60% {
+    -webkit-transform: rotate3d(0, 0, 1, 5deg);
+    transform: rotate3d(0, 0, 1, 5deg);
+  }
+
+  80% {
+    -webkit-transform: rotate3d(0, 0, 1, -5deg);
+    transform: rotate3d(0, 0, 1, -5deg);
+  }
+
+  to {
+    -webkit-transform: rotate3d(0, 0, 1, 0deg);
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+}
+
+@keyframes swing {
+  20% {
+    -webkit-transform: rotate3d(0, 0, 1, 15deg);
+    transform: rotate3d(0, 0, 1, 15deg);
+  }
+
+  40% {
+    -webkit-transform: rotate3d(0, 0, 1, -10deg);
+    transform: rotate3d(0, 0, 1, -10deg);
+  }
+
+  60% {
+    -webkit-transform: rotate3d(0, 0, 1, 5deg);
+    transform: rotate3d(0, 0, 1, 5deg);
+  }
+
+  80% {
+    -webkit-transform: rotate3d(0, 0, 1, -5deg);
+    transform: rotate3d(0, 0, 1, -5deg);
+  }
+
+  to {
+    -webkit-transform: rotate3d(0, 0, 1, 0deg);
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+}
+
+.swing {
+  height: fit-content;
+  width: fit-content;
+}
+
+.swing:hover {
+  -webkit-transform-origin: top center;
+  transform-origin: top center;
+  -webkit-animation-name: swing;
+  animation-name: swing;
+  animation-duration: 1s;
+}
