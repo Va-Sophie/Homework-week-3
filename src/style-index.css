@@ -3,11 +3,6 @@
   --text-decoration: none;
   --border: 1px solid var(--main-color);
 }
-@media (max-width: 576px) {
-  h1 {
-    font-size: 70px;
-  }
-}
 .container {
   padding: auto;
 }
@@ -100,4 +95,22 @@ img {
 }
 .row {
   margin-bottom: 30px;
+}
+@media (max-width: 576px) {
+  h1 {
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 15px;
+  }
+  .mobile {
+    display: block;
+    margin: 0 auto;
+  }
 }
