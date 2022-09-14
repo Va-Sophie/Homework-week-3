@@ -3,6 +3,11 @@
   --text-decoration: none;
   --border: 1px solid var(--main-color);
 }
+@media (max-width: 576px) {
+  h1 {
+    font-size: 70px;
+  }
+}
 .container {
   padding: auto;
 }
